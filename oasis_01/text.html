@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-container">
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <img src="https://almond.consulting/wp-content/uploads/2019/05/Almond-logo-noir.png" alt="" class="logo-size">
+        </nav>
+
+        <div class="main-content">
+
+            <div class="image-almond">
+                <div class="swiper mySwiper">
+                    <div>
+                        <div class="swiper-slide"><img src="https://chennaibrothers.com/wp-content/uploads/2021/05/shutterstock-1277084833-1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-text">
+                <h1>The Almonds</h1>
+                <p>Almonds are rich in valuable nutrients for your body, like magnesium, vitamin E, and dietary fiber.
+                    Almonds have calcium and phosphorus, which improve bone health and can protect you from fractures.</p>
+                <button>Know More</button>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <h1 class="benefits-heading">Health Benefits:</h1>
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIp7lI0qthOGHhMKb8WQMYxCnxKC4bSGaLhicAtGMOwvjQHh3GQ8xycbBobzaFT1vIMb8&usqp=CAU" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Lower Cholesterol</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQViqwA4tRmi6hipeRqWFA6OAa2YoP1crS75g&usqp=CAU" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Keep a Healthy Weight</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa6kG0gkl-rHThFqZljxCDqzVmBbr9Plj2aQ&usqp=CAU" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Lower Blood Pressure</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT63UYag2WJN-Uztmte8-I4qspGMwZdJQky0IRcQ_SUN6WjfzHvLhoKrJ9m1YExBSuBP-E&usqp=CAU" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Better Blood Sugar Control</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
